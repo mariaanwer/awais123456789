@@ -1,0 +1,284 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: gold;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 30px;
+    position:relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 2px solid gold;
+    margin-right: 10px;  /* Adjust this value to set the gap */
+}
+
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: gold;
+    font-family: 'Great Vibes', cursive;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.nav-links a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+/* Section Spacing */
+section {
+    padding: 100px 20px;
+    margin-top: 80px;
+}
+
+/* Wedding Section */
+#wedding {
+    height: 100vh;
+    background: url('photos/wedding-bg.jpg') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gold;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+}
+
+.wedding-content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+    max-width: 600px;
+}
+
+.wedding-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.wedding-images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid gold;
+    transition: transform 0.3s ease;
+}
+
+.wedding-images img:hover {
+    transform: scale(1.1);
+}
+
+/* Mehndi Section */
+#mehndi {
+    background-color: black;
+    color: gold;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.mehndi-container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 215, 0, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+}
+
+.mehndi-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.mehndi-images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid gold;
+}
+
+/* Barat Section */
+#barat {
+    background-color: black;
+    padding: 80px 20px;
+}
+
+.barat-container {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(255, 215, 0, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+}
+
+.barat-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.barat-gallery img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid gold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.barat-gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px gold;
+}
+
+/* RSVP Section */
+#rsvp {
+    background: black;
+    padding: 100px 20px;
+}
+
+.btn {
+    background: gold;
+    color: black;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
+/* Walima Section */
+#walima {
+    background-color: black;
+    padding: 80px 20px;
+    color: gold;
+    text-align: center;
+}
+
+.walima-container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 215, 0, 0.1); /* Light gold tint */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+}
+
+.walima-container h1 {
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 20px;
+}
+
+.walima-container p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.walima-content {
+    margin-top: 30px;
+}
+
+.btn {
+    background: gold;
+    color: black;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
+/* Contact Section */
+#contact {
+    background-color: black;
+    color: gold;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 215, 0, 0.1); /* Light gold tint */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+}
+
+.contact-container h1 {
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 20px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contact-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-details strong {
+    color: gold;
+}
+
